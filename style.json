@@ -1,0 +1,192 @@
+{
+  "QMainWindow": [
+    {
+      "tittle": "MEW 3D Printer Controller",
+      "icon": ":/images/icon.png",
+      "frameless": true,
+      "transluscentBg": true,
+      "sizeGrip": "sizeGrip",
+      "navigation": [
+        {
+          "minimize": "minimizeBtn",
+          "close": "closeBtn",
+          "restore": [
+            {
+              "buttonName": "restoreBtn",
+              "normalIcon": ":/icons/icons/square.svg",
+              "maximizedIcon": ":/icons/icons/copy.svg"
+            }
+          ],
+          "moveWindow": "headerContainer",
+          "tittleBar": "headerContainer"
+        }
+      ]
+    }
+  ],
+  "QCustomSlideMenu": [
+    {
+      "name": "leftMenuContainer",
+      "defaultSize": [
+        {
+          "width": 50,
+          "height": "parent"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 50,
+          "height": "parent"
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": 125,
+          "height": "parent"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "menuBtn",
+          "icons": [
+            {
+              "whenMenuIsCollapsed": ":/icons/icons/align-justify.svg",
+              "whenMenuIsExpanded": ":/icons/icons/chevron-left.svg"
+            }
+          ]
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 400,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    },
+    {
+      "name": "centerMenuContainer",
+      "defaultSize": [
+        {
+          "width": 0,
+          "height": "parent"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 0,
+          "height": "parent"
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": 300,
+          "height": "parent"
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 400,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    },
+    {
+      "name": "rightMenuContainer",
+      "defaultSize": [
+        {
+          "width": 0,
+          "height": "auto"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 0,
+          "height": "auto"
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": 300,
+          "height": "auto"
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 400,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    }
+  ],
+  "QStackedWidget": [
+    {
+      "name": "mainPages",
+      "navigation": [
+        {
+          "navigationButtons": [
+            {
+              "homeBtn": "homePage",
+              "manualBtn": "manualPage",
+              "gcodeBtn": "gcodePage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "centerMenuPages",
+      "navigation": [
+        {
+          "navigationButtons": [
+            {
+              "calibrationBtn": "calibrationPage",
+              "helpBtn": "helpPage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "leftMenuPages",
+      "navigation": [
+        {
+          "navigationButtons": [
+            {
+              "HVConectBtn": "hvPage",
+              "extruderConectBtn": "extruderPage",
+              "stageConectBtn": "stagePage"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "QPushButtonGroup": [
+    {
+      "Buttons": ["homeBtn", "manualBtn", "gcodeBtn"],
+      "Style": [
+        {
+          "Active": "background-color: #1f232a;",
+          "NotActive": ""
+        }
+      ]
+    },
+    {
+      "Buttons": ["calibrationBtn", "helpBtn"],
+      "Style": [
+        {
+          "Active": "background-color: #1f232a;",
+          "NotActive": ""
+        }
+      ]
+    },
+    {
+      "Buttons": ["HVConectBtn", "stageConectBtn", "extruderConectBtn"],
+      "Style": [
+        {
+          "Active": "background-color: #1f232a;",
+          "NotActive": ""
+        }
+      ]
+    }
+  ]
+}
