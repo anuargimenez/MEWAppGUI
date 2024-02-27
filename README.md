@@ -1,6 +1,9 @@
 # Aplicación con GUI para controlar una impresora MEW de alta tensión con cabezal de extrusión de pellets
 
 Este repositorio contiene una aplicación personalizada en Python desarrollada para controlar una impresora de melt electrowriting (MEW) de forma centralizada. El objetivo principal de esta aplicación es unificar el control de todos los sistemas eléctricos y electrónicos de la impresora en una única interfaz, facilitando su manejo.
+<p align="center">
+<img src="images/MEW%20anuar.jpg" width="200"/>
+</p>
 
 ## Conexión de Dispositivos
 
